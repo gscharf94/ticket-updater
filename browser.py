@@ -1,5 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
+from selenium.webdriver.common.keys import Keys
 import time
 from bs4 import BeautifulSoup
 
@@ -155,7 +156,7 @@ def getDict():
 	driver.close()
 
 	workOrderDict = processTicketNums(workOrderDict)
-	driver.close()
+	# driver.close()
 
 	return workOrderDict, work_order_ids_titles
 
@@ -209,17 +210,19 @@ def searchTicket(ticketnum,driver):
 		time.sleep(3)
 		html = saveResponsesHTML(driver)
 
+	print('we leave here')
 	return html
 
 def saveResponsesHTML(driver):
 	currentURL = driver.current_url
 	driver.get(currentURL+"#tab4")
 
-	# time.sleep(5)
+	time.sleep(1)
 
 	while True:
 		try:
 			currentOnlyCheck = driver.find_element_by_id("mat-radio-7")
+			# currentOnlyCheck.send_keys(Keys.SPACE)
 			currentOnlyCheck.click()
 			showEventsCheck = driver.find_element_by_class_name("mat-checkbox-label")
 			showEventsCheck.click()
