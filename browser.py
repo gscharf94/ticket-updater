@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 import time
+from bs4 import BeautifulSoup
 
 
 def loginWorkstraight():
@@ -43,9 +44,26 @@ def getOpenOrders(driver):
 	table = driver.find_element_by_id("wo_list")
 	html = table.get_attribute("innerHTML")
 
-	openWorkOrders = processOpenOrderList(html)
+	# openWorkOrders = processOpenOrderList(html)
+	openWorkOrders = parse_table_html(html)
 
 	return openWorkOrders
+
+def parse_table_html(text):
+	sp = BeautifulSoup(text, 'html.parser')
+	rows = sp.find_all('tr')
+	ret = {}
+	for row in sp.find_all('tr'):
+		link = row.find('a')
+		if link == None:
+			continue
+		link = link.getText()
+		title = row.find('span').getText()
+		ret[link] = title
+	return ret
+
+
+
 
 def processOpenOrderList(text):
 	### takes in HTML of open orders
@@ -115,7 +133,14 @@ def getDict():
 
 	driver = loginWorkstraight()
 
-	openWorkOrders = getOpenOrders(driver)
+	work_order_ids_titles = getOpenOrders(driver)
+
+	openWorkOrders = []
+	for item in work_order_ids_titles:
+    		openWorkOrders.append(item)
+
+
+	
 
 	workOrderDict = {}
 
@@ -130,8 +155,9 @@ def getDict():
 	driver.close()
 
 	workOrderDict = processTicketNums(workOrderDict)
+	driver.close()
 
-	return workOrderDict
+	return workOrderDict, work_order_ids_titles
 
 def loginSunshine():
 
