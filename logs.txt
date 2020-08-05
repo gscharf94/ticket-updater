@@ -28,3 +28,499 @@
 07-17 04:38:14 > GUD > FINISHED SUCCESFULLY
 07-17 04:38:14 > --- > Time elapsed: 26.27m: 16.18s
 07-17 04:38:14 > PSH > Pushing to heroku
+07-17 04:38:14 > PSH > Finished. Hopefully it compiles
+07-17 04:54:37 > SRT > Starting email sending
+07-17 04:54:37 > GUD > Emails sent out
+07-17 04:54:37 > GUD > FINISHED SUCCESFULLY
+07-17 04:54:37 > --- > Time elapsed: 0.0m: 0.02s
+07-17 04:54:37 > PSH > Pushing to heroku
+07-17 04:55:07 > SRT > Starting email sending
+07-17 04:55:07 > GUD > Emails sent out
+07-17 04:55:07 > GUD > FINISHED SUCCESFULLY
+07-17 04:55:07 > --- > Time elapsed: 0.0m: 0.01s
+07-17 04:55:07 > PSH > Pushing to heroku
+07-17 06:28:28 > SRT > Starting email sending
+07-17 06:28:28 > GUD > Emails sent out
+07-17 06:28:28 > GUD > FINISHED SUCCESFULLY
+07-17 06:28:28 > --- > Time elapsed: 0.0m: 0.01s
+07-17 06:28:28 > PSH > Pushing to heroku
+07-17 07:30:41 > CHK > Checking completion of previous script
+07-17 07:30:41 > CHK > WAS COMPLETED. Going to sleep.. 
+07-17 19:30:01 > CHK > Checking completion of previous script
+07-17 19:30:01 > CHK > WAS COMPLETED. Going to sleep.. 
+07-18 01:15:16 > SRT > Starting program date: 2020-07-18
+07-18 01:15:16 > SRT > Resetting success file
+07-18 01:15:16 > SRT > Getting work order information
+07-18 01:18:02 > GUD > Saved work order information
+07-18 01:18:02 > SRT > Getting response information
+07-18 01:22:17 > SRT > Starting program date: 2020-07-18
+07-18 01:22:17 > SRT > Resetting success file
+07-18 01:22:17 > SRT > Getting work order information
+07-18 01:25:15 > GUD > Saved work order information
+07-18 01:25:15 > SRT > Getting response information
+07-18 01:48:38 > GUD > Saved response information
+07-18 01:48:38 > SRT > Creating spreadsheets
+07-18 01:48:46 > GUD > Spreadsheets created
+07-18 01:48:46 > SRT > Starting email sending
+07-18 01:48:50 > GUD > Emails sent out
+07-18 01:48:50 > GUD > FINISHED SUCCESFULLY
+07-18 01:48:50 > --- > Time elapsed: 26.55m: 32.96s
+07-18 01:48:50 > PSH > Pushing to heroku
+07-18 06:31:34 > SRT > Starting program date: 2020-07-18
+07-18 06:31:34 > SRT > Resetting success file
+07-18 06:31:34 > SRT > Getting work order information
+07-18 06:34:45 > GUD > Saved work order information
+07-18 06:34:45 > SRT > Getting response information
+07-18 06:58:04 > GUD > Saved response information
+07-18 06:58:04 > SRT > Creating spreadsheets
+07-18 06:58:12 > GUD > Spreadsheets created
+07-18 06:58:12 > SRT > Starting email sending
+07-18 06:58:15 > GUD > Emails sent out
+07-18 06:58:15 > GUD > FINISHED SUCCESFULLY
+07-18 06:58:15 > --- > Time elapsed: 26.69m: 41.61s
+07-18 06:58:15 > PSH > Pushing to heroku
+07-18 07:30:42 > CHK > Checking completion of previous script
+07-18 07:30:42 > CHK > WAS COMPLETED. Going to sleep.. 
+07-18 18:36:37 > SRT > Starting program date: 2020-07-18
+07-18 18:36:37 > SRT > Resetting success file
+07-18 18:36:37 > SRT > Getting work order information
+07-18 18:40:11 > GUD > Saved work order information
+07-18 18:40:11 > SRT > Getting response information
+07-18 19:03:24 > GUD > Saved response information
+07-18 19:03:24 > SRT > Creating spreadsheets
+07-18 19:03:32 > GUD > Spreadsheets created
+07-18 19:03:32 > SRT > Starting email sending
+07-18 19:03:35 > GUD > Emails sent out
+07-18 19:03:35 > GUD > FINISHED SUCCESFULLY
+07-18 19:03:35 > --- > Time elapsed: 26.98m: 58.58s
+07-18 19:03:35 > PSH > Pushing to heroku
+07-18 19:30:02 > CHK > Checking completion of previous script
+07-18 19:30:02 > CHK > WAS COMPLETED. Going to sleep.. 
+07-19 06:20:25 > SRT > Starting program date: 2020-07-19
+07-19 06:20:25 > SRT > Resetting success file
+07-19 06:20:25 > SRT > Getting work order information
+07-19 06:23:39 > GUD > Saved work order information
+07-19 06:23:39 > SRT > Getting response information
+07-19 06:46:48 > GUD > Saved response information
+07-19 06:46:48 > SRT > Creating spreadsheets
+07-19 06:46:56 > GUD > Spreadsheets created
+07-19 06:46:56 > SRT > Starting email sending
+07-19 06:46:59 > GUD > Emails sent out
+07-19 06:46:59 > GUD > FINISHED SUCCESFULLY
+07-19 06:46:59 > --- > Time elapsed: 26.57m: 33.92s
+07-19 06:46:59 > PSH > Pushing to heroku
+07-19 07:30:42 > CHK > Checking completion of previous script
+07-19 07:30:42 > CHK > WAS COMPLETED. Going to sleep.. 
+07-19 18:43:40 > SRT > Starting program date: 2020-07-19
+07-19 18:43:40 > SRT > Resetting success file
+07-19 18:43:40 > SRT > Getting work order information
+07-19 18:46:58 > GUD > Saved work order information
+07-19 18:46:58 > SRT > Getting response information
+07-19 19:08:57 > SRT > Starting program date: 2020-07-19
+07-19 19:08:57 > SRT > Resetting success file
+07-19 19:08:57 > SRT > Getting work order information
+07-19 19:09:18 > SRT > Starting program date: 2020-07-19
+07-19 19:09:18 > SRT > Resetting success file
+07-19 19:09:18 > SRT > Getting work order information
+07-19 19:12:30 > GUD > Saved work order information
+07-19 19:12:30 > SRT > Getting response information
+07-19 19:30:02 > CHK > Checking completion of previous script
+07-19 19:30:02 > CHK > WAS COMPLETED. Going to sleep.. 
+07-19 20:00:29 > SRT > Starting program date: 2020-07-19
+07-19 20:00:29 > SRT > Resetting success file
+07-19 20:00:29 > SRT > Getting work order information
+07-19 20:03:36 > GUD > Saved work order information
+07-19 20:03:36 > SRT > Getting response information
+07-19 20:30:06 > GUD > Saved response information
+07-19 20:30:06 > SRT > Creating spreadsheets
+07-19 20:30:14 > GUD > Spreadsheets created
+07-19 20:30:14 > SRT > Starting email sending
+07-19 20:30:17 > GUD > Emails sent out
+07-19 20:30:17 > GUD > FINISHED SUCCESFULLY
+07-19 20:30:17 > --- > Time elapsed: 29.8m: 47.87s
+07-19 20:30:17 > PSH > Pushing to heroku
+07-20 06:20:56 > SRT > Starting program date: 2020-07-20
+07-20 06:20:56 > SRT > Resetting success file
+07-20 06:20:56 > SRT > Getting work order information
+07-20 06:24:07 > GUD > Saved work order information
+07-20 06:24:07 > SRT > Getting response information
+07-20 06:50:03 > GUD > Saved response information
+07-20 06:50:03 > SRT > Creating spreadsheets
+07-20 06:50:10 > GUD > Spreadsheets created
+07-20 06:50:10 > SRT > Starting email sending
+07-20 06:50:14 > GUD > Emails sent out
+07-20 06:50:14 > GUD > FINISHED SUCCESFULLY
+07-20 06:50:14 > --- > Time elapsed: 29.29m: 17.33s
+07-20 06:50:14 > PSH > Pushing to heroku
+07-20 07:30:42 > CHK > Checking completion of previous script
+07-20 07:30:42 > CHK > WAS COMPLETED. Going to sleep.. 
+07-20 18:17:35 > SRT > Starting program date: 2020-07-20
+07-20 18:17:35 > SRT > Resetting success file
+07-20 18:17:35 > SRT > Getting work order information
+07-20 18:20:22 > GUD > Saved work order information
+07-20 18:20:22 > SRT > Getting response information
+07-20 19:30:02 > CHK > Checking completion of previous script
+07-20 19:30:02 > CHK > WAS COMPLETED. Going to sleep.. 
+07-21 06:21:00 > SRT > Starting program date: 2020-07-21
+07-21 06:21:00 > SRT > Resetting success file
+07-21 06:21:00 > SRT > Getting work order information
+07-21 06:24:30 > GUD > Saved work order information
+07-21 06:24:30 > SRT > Getting response information
+07-21 06:50:50 > GUD > Saved response information
+07-21 06:50:51 > SRT > Creating spreadsheets
+07-21 06:50:58 > GUD > Spreadsheets created
+07-21 06:50:58 > SRT > Starting email sending
+07-21 06:51:02 > GUD > Emails sent out
+07-21 06:51:02 > GUD > FINISHED SUCCESFULLY
+07-21 06:51:02 > --- > Time elapsed: 30.04m: 2.3s
+07-21 06:51:02 > PSH > Pushing to heroku
+07-21 07:30:42 > CHK > Checking completion of previous script
+07-21 07:30:42 > CHK > WAS COMPLETED. Going to sleep.. 
+07-21 18:38:15 > SRT > Starting program date: 2020-07-21
+07-21 18:38:15 > SRT > Resetting success file
+07-21 18:38:15 > SRT > Getting work order information
+07-21 18:41:52 > GUD > Saved work order information
+07-21 18:41:52 > SRT > Getting response information
+07-21 19:08:29 > GUD > Saved response information
+07-21 19:08:29 > SRT > Creating spreadsheets
+07-21 19:08:37 > GUD > Spreadsheets created
+07-21 19:08:37 > SRT > Starting email sending
+07-21 19:08:40 > GUD > Emails sent out
+07-21 19:08:40 > GUD > FINISHED SUCCESFULLY
+07-21 19:08:40 > --- > Time elapsed: 30.42m: 25.13s
+07-21 19:08:40 > PSH > Pushing to heroku
+07-21 19:30:02 > CHK > Checking completion of previous script
+07-21 19:30:02 > CHK > WAS COMPLETED. Going to sleep.. 
+07-22 06:41:25 > SRT > Starting program date: 2020-07-22
+07-22 06:41:25 > SRT > Resetting success file
+07-22 06:41:25 > SRT > Getting work order information
+07-22 06:44:34 > GUD > Saved work order information
+07-22 06:44:34 > SRT > Getting response information
+07-22 07:10:59 > GUD > Saved response information
+07-22 07:10:59 > SRT > Creating spreadsheets
+07-22 07:11:07 > GUD > Spreadsheets created
+07-22 07:11:07 > SRT > Starting email sending
+07-22 07:11:10 > GUD > Emails sent out
+07-22 07:11:10 > GUD > FINISHED SUCCESFULLY
+07-22 07:11:10 > --- > Time elapsed: 29.74m: 44.6s
+07-22 07:11:10 > PSH > Pushing to heroku
+07-22 07:30:42 > CHK > Checking completion of previous script
+07-22 07:30:42 > CHK > WAS COMPLETED. Going to sleep.. 
+07-22 18:19:22 > SRT > Starting program date: 2020-07-22
+07-22 18:19:22 > SRT > Resetting success file
+07-22 18:19:22 > SRT > Getting work order information
+07-22 18:23:55 > GUD > Saved work order information
+07-22 18:23:55 > SRT > Getting response information
+07-22 19:30:02 > CHK > Checking completion of previous script
+07-22 19:30:02 > CHK > WAS COMPLETED. Going to sleep.. 
+07-23 06:29:05 > SRT > Starting program date: 2020-07-23
+07-23 06:29:05 > SRT > Resetting success file
+07-23 06:29:05 > SRT > Getting work order information
+07-23 06:33:26 > GUD > Saved work order information
+07-23 06:33:26 > SRT > Getting response information
+07-23 07:30:42 > CHK > Checking completion of previous script
+07-23 07:30:42 > CHK > WAS COMPLETED. Going to sleep.. 
+07-23 13:45:31 > SRT > Starting program date: 2020-07-23
+07-23 13:45:31 > SRT > Resetting success file
+07-23 13:45:31 > SRT > Getting work order information
+07-23 13:49:44 > GUD > Saved work order information
+07-23 13:49:44 > SRT > Getting response information
+07-23 14:03:48 > SRT > Starting program date: 2020-07-23
+07-23 14:03:48 > SRT > Resetting success file
+07-23 14:03:48 > SRT > Getting work order information
+07-23 14:08:15 > GUD > Saved work order information
+07-23 14:08:15 > SRT > Getting response information
+07-23 14:43:06 > GUD > Saved response information
+07-23 14:43:06 > SRT > Creating spreadsheets
+07-23 14:43:14 > GUD > Spreadsheets created
+07-23 14:43:14 > SRT > Starting email sending
+07-23 14:43:18 > GUD > Emails sent out
+07-23 14:43:18 > GUD > FINISHED SUCCESFULLY
+07-23 14:43:18 > --- > Time elapsed: 39.5m: 30.03s
+07-23 14:43:18 > PSH > Pushing to heroku
+07-23 18:26:11 > SRT > Starting program date: 2020-07-23
+07-23 18:26:11 > SRT > Resetting success file
+07-23 18:26:11 > SRT > Getting work order information
+07-23 18:30:20 > GUD > Saved work order information
+07-23 18:30:20 > SRT > Getting response information
+07-23 19:05:07 > GUD > Saved response information
+07-23 19:05:07 > SRT > Creating spreadsheets
+07-23 19:05:15 > GUD > Spreadsheets created
+07-23 19:05:15 > SRT > Starting email sending
+07-23 19:05:19 > GUD > Emails sent out
+07-23 19:05:19 > GUD > FINISHED SUCCESFULLY
+07-23 19:05:19 > --- > Time elapsed: 39.14m: 8.42s
+07-23 19:05:19 > PSH > Pushing to heroku
+07-23 19:30:02 > CHK > Checking completion of previous script
+07-23 19:30:02 > CHK > WAS COMPLETED. Going to sleep.. 
+07-24 06:30:32 > SRT > Starting program date: 2020-07-24
+07-24 06:30:32 > SRT > Resetting success file
+07-24 06:30:32 > SRT > Getting work order information
+07-24 06:35:17 > GUD > Saved work order information
+07-24 06:35:17 > SRT > Getting response information
+07-24 07:09:50 > GUD > Saved response information
+07-24 07:09:50 > SRT > Creating spreadsheets
+07-24 07:09:58 > GUD > Spreadsheets created
+07-24 07:09:58 > SRT > Starting email sending
+07-24 07:10:02 > GUD > Emails sent out
+07-24 07:10:02 > GUD > FINISHED SUCCESFULLY
+07-24 07:10:02 > --- > Time elapsed: 39.51m: 30.45s
+07-24 07:10:02 > PSH > Pushing to heroku
+07-24 07:30:42 > CHK > Checking completion of previous script
+07-24 07:30:42 > CHK > WAS COMPLETED. Going to sleep.. 
+07-24 18:45:18 > SRT > Starting program date: 2020-07-24
+07-24 18:45:18 > SRT > Resetting success file
+07-24 18:45:18 > SRT > Getting work order information
+07-24 18:49:45 > GUD > Saved work order information
+07-24 18:49:45 > SRT > Getting response information
+07-24 19:24:25 > GUD > Saved response information
+07-24 19:24:25 > SRT > Creating spreadsheets
+07-24 19:24:33 > GUD > Spreadsheets created
+07-24 19:24:33 > SRT > Starting email sending
+07-24 19:24:36 > GUD > Emails sent out
+07-24 19:24:36 > GUD > FINISHED SUCCESFULLY
+07-24 19:24:36 > --- > Time elapsed: 39.31m: 18.45s
+07-24 19:24:36 > PSH > Pushing to heroku
+07-24 19:30:02 > CHK > Checking completion of previous script
+07-24 19:30:02 > CHK > WAS COMPLETED. Going to sleep.. 
+07-25 06:30:28 > SRT > Starting program date: 2020-07-25
+07-25 06:30:28 > SRT > Resetting success file
+07-25 06:30:28 > SRT > Getting work order information
+07-25 06:34:54 > GUD > Saved work order information
+07-25 06:34:54 > SRT > Getting response information
+07-25 07:09:31 > GUD > Saved response information
+07-25 07:09:31 > SRT > Creating spreadsheets
+07-25 07:09:39 > GUD > Spreadsheets created
+07-25 07:09:39 > SRT > Starting email sending
+07-25 07:09:43 > GUD > Emails sent out
+07-25 07:09:43 > GUD > FINISHED SUCCESFULLY
+07-25 07:09:43 > --- > Time elapsed: 39.26m: 15.71s
+07-25 07:09:43 > PSH > Pushing to heroku
+07-25 07:30:42 > CHK > Checking completion of previous script
+07-25 07:30:42 > CHK > WAS COMPLETED. Going to sleep.. 
+07-27 01:10:16 > SRT > Starting program date: 2020-07-27
+07-27 01:10:16 > SRT > Resetting success file
+07-27 01:10:16 > SRT > Getting work order information
+07-27 01:14:07 > GUD > Saved work order information
+07-27 01:14:07 > SRT > Getting response information
+07-27 01:50:11 > GUD > Saved response information
+07-27 01:50:11 > SRT > Creating spreadsheets
+07-27 01:50:19 > GUD > Spreadsheets created
+07-27 01:50:19 > SRT > Starting email sending
+07-27 01:50:22 > GUD > Emails sent out
+07-27 01:50:22 > GUD > FINISHED SUCCESFULLY
+07-27 01:50:22 > --- > Time elapsed: 40.09m: 5.62s
+07-27 01:50:22 > PSH > Pushing to heroku
+07-27 06:43:02 > SRT > Starting program date: 2020-07-27
+07-27 06:43:02 > SRT > Resetting success file
+07-27 06:43:02 > SRT > Getting work order information
+07-27 06:46:21 > GUD > Saved work order information
+07-27 06:46:21 > SRT > Getting response information
+07-27 07:22:18 > GUD > Saved response information
+07-27 07:22:18 > SRT > Creating spreadsheets
+07-27 07:22:26 > GUD > Spreadsheets created
+07-27 07:22:26 > SRT > Starting email sending
+07-27 07:22:29 > GUD > Emails sent out
+07-27 07:22:29 > GUD > FINISHED SUCCESFULLY
+07-27 07:22:29 > --- > Time elapsed: 39.45m: 27.01s
+07-27 07:22:29 > PSH > Pushing to heroku
+07-27 07:30:42 > CHK > Checking completion of previous script
+07-27 07:30:42 > CHK > WAS COMPLETED. Going to sleep.. 
+07-27 18:27:10 > SRT > Starting program date: 2020-07-27
+07-27 18:27:10 > SRT > Resetting success file
+07-27 18:27:10 > SRT > Getting work order information
+07-27 19:30:02 > CHK > Checking completion of previous script
+07-27 19:30:02 > CHK > WAS COMPLETED. Going to sleep.. 
+07-28 06:36:27 > SRT > Starting program date: 2020-07-28
+07-28 06:36:27 > SRT > Resetting success file
+07-28 06:36:27 > SRT > Getting work order information
+07-28 06:39:24 > GUD > Saved work order information
+07-28 06:39:24 > SRT > Getting response information
+07-28 07:30:42 > CHK > Checking completion of previous script
+07-28 07:30:42 > CHK > WAS COMPLETED. Going to sleep.. 
+07-28 10:41:44 > SRT > Starting program date: 2020-07-28
+07-28 10:41:44 > SRT > Resetting success file
+07-28 10:41:44 > SRT > Getting work order information
+07-28 10:44:50 > GUD > Saved work order information
+07-28 10:44:50 > SRT > Getting response information
+07-28 10:59:50 > SRT > Starting program date: 2020-07-28
+07-28 10:59:50 > SRT > Resetting success file
+07-28 10:59:50 > SRT > Getting work order information
+07-28 11:00:28 > SRT > Starting program date: 2020-07-28
+07-28 11:00:28 > SRT > Resetting success file
+07-28 11:00:28 > SRT > Getting work order information
+07-28 11:00:28 > GUD > Saved work order information
+07-28 11:00:28 > SRT > Getting response information
+07-28 11:37:18 > GUD > Saved response information
+07-28 11:37:18 > SRT > Creating spreadsheets
+07-28 11:37:24 > GUD > Spreadsheets created
+07-28 11:37:24 > SRT > Starting email sending
+07-28 11:37:27 > GUD > Emails sent out
+07-28 11:37:27 > GUD > FINISHED SUCCESFULLY
+07-28 11:37:27 > --- > Time elapsed: 36.99m: 59.21s
+07-28 11:37:27 > PSH > Pushing to heroku
+07-28 18:40:55 > SRT > Starting program date: 2020-07-28
+07-28 18:40:55 > SRT > Resetting success file
+07-28 18:40:55 > SRT > Getting work order information
+07-28 18:40:55 > GUD > Saved work order information
+07-28 18:40:55 > SRT > Getting response information
+07-28 19:30:02 > CHK > Checking completion of previous script
+07-28 19:30:02 > CHK > WAS COMPLETED. Going to sleep.. 
+07-29 07:30:42 > CHK > Checking completion of previous script
+07-29 07:30:42 > CHK > WAS COMPLETED. Going to sleep.. 
+07-29 19:30:02 > CHK > Checking completion of previous script
+07-29 19:30:02 > CHK > WAS COMPLETED. Going to sleep.. 
+07-30 07:30:42 > CHK > Checking completion of previous script
+07-30 07:30:42 > CHK > WAS COMPLETED. Going to sleep.. 
+07-30 18:37:06 > SRT > Starting program date: 2020-07-30
+07-30 18:37:06 > SRT > Resetting success file
+07-30 18:37:06 > SRT > Getting work order information
+07-30 18:40:09 > GUD > Saved work order information
+07-30 18:40:09 > SRT > Getting response information
+07-30 19:30:02 > CHK > Checking completion of previous script
+07-30 19:30:02 > CHK > WAS COMPLETED. Going to sleep.. 
+07-30 20:14:31 > SRT > Starting program date: 2020-07-30
+07-30 20:14:31 > SRT > Resetting success file
+07-30 20:14:31 > SRT > Getting work order information
+07-30 20:17:16 > GUD > Saved work order information
+07-30 20:17:16 > SRT > Getting response information
+07-31 06:43:52 > SRT > Starting program date: 2020-07-31
+07-31 06:43:52 > SRT > Resetting success file
+07-31 06:43:52 > SRT > Getting work order information
+07-31 06:46:38 > GUD > Saved work order information
+07-31 06:46:38 > SRT > Getting response information
+07-31 07:13:30 > GUD > Saved response information
+07-31 07:13:30 > SRT > Creating spreadsheets
+07-31 07:13:38 > GUD > Spreadsheets created
+07-31 07:13:38 > SRT > Starting email sending
+07-31 07:13:41 > GUD > Emails sent out
+07-31 07:13:41 > GUD > FINISHED SUCCESFULLY
+07-31 07:13:41 > --- > Time elapsed: 29.81m: 48.88s
+07-31 07:13:41 > PSH > Pushing to heroku
+07-31 07:30:42 > CHK > Checking completion of previous script
+07-31 07:30:42 > CHK > WAS COMPLETED. Going to sleep.. 
+07-31 18:22:30 > SRT > Starting program date: 2020-07-31
+07-31 18:22:30 > SRT > Resetting success file
+07-31 18:22:30 > SRT > Getting work order information
+07-31 18:25:47 > GUD > Saved work order information
+07-31 18:25:47 > SRT > Getting response information
+07-31 18:52:35 > GUD > Saved response information
+07-31 18:52:35 > SRT > Creating spreadsheets
+07-31 18:52:43 > GUD > Spreadsheets created
+07-31 18:52:43 > SRT > Starting email sending
+07-31 18:52:46 > GUD > Emails sent out
+07-31 18:52:46 > GUD > FINISHED SUCCESFULLY
+07-31 18:52:46 > --- > Time elapsed: 30.27m: 16.11s
+07-31 18:52:46 > PSH > Pushing to heroku
+07-31 19:30:03 > CHK > Checking completion of previous script
+07-31 19:30:03 > CHK > WAS COMPLETED. Going to sleep.. 
+08-01 06:42:51 > SRT > Starting program date: 2020-08-01
+08-01 06:42:51 > SRT > Resetting success file
+08-01 06:42:51 > SRT > Getting work order information
+08-01 06:45:45 > GUD > Saved work order information
+08-01 06:45:45 > SRT > Getting response information
+08-01 07:30:42 > CHK > Checking completion of previous script
+08-01 07:30:42 > CHK > WAS COMPLETED. Going to sleep.. 
+08-01 18:17:16 > SRT > Starting program date: 2020-08-01
+08-01 18:17:16 > SRT > Resetting success file
+08-01 18:17:16 > SRT > Getting work order information
+08-01 18:20:36 > GUD > Saved work order information
+08-01 18:20:36 > SRT > Getting response information
+08-01 18:48:06 > GUD > Saved response information
+08-01 18:48:06 > SRT > Creating spreadsheets
+08-01 18:48:14 > GUD > Spreadsheets created
+08-01 18:48:14 > SRT > Starting email sending
+08-01 18:48:17 > GUD > Emails sent out
+08-01 18:48:17 > GUD > FINISHED SUCCESFULLY
+08-01 18:48:17 > --- > Time elapsed: 31.02m: 1.41s
+08-01 18:48:17 > PSH > Pushing to heroku
+08-01 19:30:02 > CHK > Checking completion of previous script
+08-01 19:30:02 > CHK > WAS COMPLETED. Going to sleep.. 
+08-02 06:38:20 > SRT > Starting program date: 2020-08-02
+08-02 06:38:20 > SRT > Resetting success file
+08-02 06:38:20 > SRT > Getting work order information
+08-02 06:41:46 > GUD > Saved work order information
+08-02 06:41:46 > SRT > Getting response information
+08-02 07:08:29 > GUD > Saved response information
+08-02 07:08:29 > SRT > Creating spreadsheets
+08-02 07:08:36 > GUD > Spreadsheets created
+08-02 07:08:36 > SRT > Starting email sending
+08-02 07:08:40 > GUD > Emails sent out
+08-02 07:08:40 > GUD > FINISHED SUCCESFULLY
+08-02 07:08:40 > --- > Time elapsed: 30.33m: 19.52s
+08-02 07:08:40 > PSH > Pushing to heroku
+08-02 07:30:42 > CHK > Checking completion of previous script
+08-02 07:30:42 > CHK > WAS COMPLETED. Going to sleep.. 
+08-02 18:34:41 > SRT > Starting program date: 2020-08-02
+08-02 18:34:41 > SRT > Resetting success file
+08-02 18:34:41 > SRT > Getting work order information
+08-02 18:37:47 > GUD > Saved work order information
+08-02 18:37:47 > SRT > Getting response information
+08-02 19:30:03 > CHK > Checking completion of previous script
+08-02 19:30:03 > CHK > WAS COMPLETED. Going to sleep.. 
+08-03 06:23:00 > SRT > Starting program date: 2020-08-03
+08-03 06:23:00 > SRT > Resetting success file
+08-03 06:23:00 > SRT > Getting work order information
+08-03 06:25:58 > GUD > Saved work order information
+08-03 06:25:58 > SRT > Getting response information
+08-03 07:30:42 > CHK > Checking completion of previous script
+08-03 07:30:42 > CHK > WAS COMPLETED. Going to sleep.. 
+08-03 18:16:33 > SRT > Starting program date: 2020-08-03
+08-03 18:16:33 > SRT > Resetting success file
+08-03 18:16:33 > SRT > Getting work order information
+08-03 18:19:44 > GUD > Saved work order information
+08-03 18:19:44 > SRT > Getting response information
+08-03 18:54:24 > SRT > Getting response information
+08-03 19:22:05 > GUD > Saved response information
+08-03 19:22:05 > SRT > Creating spreadsheets
+08-03 19:22:11 > GUD > Spreadsheets created
+08-03 19:22:11 > SRT > Starting email sending
+08-03 19:22:15 > GUD > Emails sent out
+08-03 19:22:15 > GUD > FINISHED SUCCESFULLY
+08-03 19:22:15 > --- > Time elapsed: 27.85m: 51.09s
+08-03 19:22:15 > PSH > Pushing to heroku
+08-03 19:30:02 > CHK > Checking completion of previous script
+08-03 19:30:02 > CHK > WAS COMPLETED. Going to sleep.. 
+08-04 07:30:42 > CHK > Checking completion of previous script
+08-04 07:30:42 > CHK > WAS COMPLETED. Going to sleep.. 
+08-04 11:14:50 > SRT > Starting program date: 2020-08-04
+08-04 11:14:50 > SRT > Resetting success file
+08-04 11:14:50 > SRT > Getting work order information
+08-04 11:17:55 > GUD > Saved work order information
+08-04 11:17:55 > SRT > Getting response information
+08-04 12:18:18 > SRT > Starting program date: 2020-08-04
+08-04 12:18:18 > SRT > Resetting success file
+08-04 12:18:18 > SRT > Getting work order information
+08-04 12:21:18 > GUD > Saved work order information
+08-04 12:21:18 > SRT > Getting response information
+08-04 12:49:21 > GUD > Saved response information
+08-04 12:49:21 > SRT > Creating spreadsheets
+08-04 12:49:29 > GUD > Spreadsheets created
+08-04 12:49:29 > SRT > Starting email sending
+08-04 12:49:34 > GUD > Emails sent out
+08-04 12:49:34 > GUD > FINISHED SUCCESFULLY
+08-04 12:49:34 > --- > Time elapsed: 31.26m: 15.46s
+08-04 12:49:34 > PSH > Pushing to heroku
+08-04 12:53:45 > SRT > Starting program date: 2020-08-04
+08-04 12:53:45 > SRT > Resetting success file
+08-04 12:53:45 > SRT > Getting work order information
+08-04 18:43:12 > SRT > Starting program date: 2020-08-04
+08-04 18:43:12 > SRT > Resetting success file
+08-04 18:43:12 > SRT > Getting work order information
+08-04 19:30:02 > CHK > Checking completion of previous script
+08-04 19:30:02 > CHK > WAS COMPLETED. Going to sleep.. 
+08-05 06:43:51 > SRT > Starting program date: 2020-08-05
+08-05 06:43:51 > SRT > Resetting success file
+08-05 06:43:51 > SRT > Getting work order information
+08-05 06:46:38 > GUD > Saved work order information
+08-05 06:46:38 > SRT > Getting response information
+08-05 07:13:41 > GUD > Saved response information
+08-05 07:13:41 > SRT > Creating spreadsheets
+08-05 07:13:49 > GUD > Spreadsheets created
+08-05 07:13:49 > SRT > Starting email sending
+08-05 07:13:52 > GUD > Emails sent out
+08-05 07:13:52 > GUD > FINISHED SUCCESFULLY
+08-05 07:13:52 > --- > Time elapsed: 30.02m: 1.1s
+08-05 07:13:52 > PSH > Pushing to heroku
+08-05 07:30:42 > CHK > Checking completion of previous script
+08-05 07:30:42 > CHK > WAS COMPLETED. Going to sleep.. 

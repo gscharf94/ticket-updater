@@ -52,7 +52,6 @@ def getOpenOrders(driver):
 
 def parse_table_html(text):
 	sp = BeautifulSoup(text, 'html.parser')
-	rows = sp.find_all('tr')
 	ret = {}
 	for row in sp.find_all('tr'):
 		link = row.find('a')
@@ -185,6 +184,35 @@ def loginSunshine():
 def getToSearch(driver):
 	driver.get("https://exactix.sunshine811.com/tickets/dashboard")
 
+def get_ticket_expiration(driver):
+	sections = driver.find_elements_by_class_name("iq-ticket-entry-section")
+
+	for section in sections:
+		html = section.get_attribute("innerHTML")
+		ind = html.find("Expires:</label>")
+		if ind == -1:
+			continue
+		return html[ind+17:ind+27]
+
+def get_ticket_text(driver):
+	currentURL = driver.current_url
+	driver.get(currentURL+"#tab2")
+
+	time.sleep(1)
+
+	sections = driver.find_elements_by_class_name("mat-tab-body-content")
+
+	for section in sections:
+		html = section.get_attribute("innerHTML")
+		ind = html.find("Ticket : ")
+		if ind == -1:
+			continue
+		html = html[ind:]
+		ind = html.find("</pre>")
+		return html[:ind]
+
+	
+
 def searchTicket(ticketnum,driver):
 	x = False
 	while x == False:
@@ -204,18 +232,32 @@ def searchTicket(ticketnum,driver):
 		print("COULD NOT FIND TICKET")
 	else:
 		print("FOUND TICKET")
-		time.sleep(1.5)
-		test = driver.find_element_by_class_name("iq-list-item")
-		test.click()
+		time.sleep(1)
+		print('looking for element...')
+		c = 0
+		while c < 100:
+			try:
+				test = driver.find_element_by_class_name("iq-list-item")
+				test.click()
+				break
+			except:
+				c += 1
+
+		print('clicked element')
 		time.sleep(3)
+		print('getting exp date')
+		exp_date = get_ticket_expiration(driver)
+		print('getting ticket text')
+		ticket_text = get_ticket_text(driver)
+		print('getting html')
 		html = saveResponsesHTML(driver)
 
 	print('we leave here')
-	return html
+	return html, exp_date, ticket_text
 
 def saveResponsesHTML(driver):
 	currentURL = driver.current_url
-	driver.get(currentURL+"#tab4")
+	driver.get(currentURL[:-5]+"#tab4")
 
 	time.sleep(1)
 
@@ -251,8 +293,21 @@ def saveContactHTML(driver):
 	f.write(pageHTML)
 	f.close()
 
+def create_ticket_metadata_dict(work_order_responses):
+	ret = {}
+	for item in work_order_responses:
+		ret[item] = work_order_responses[item].copy()
+
+	for work_order_id in ret:
+		for ticket_num in ret[work_order_id]:
+			ret[work_order_id][ticket_num] = {'expiration':None,'text':None}
+	return ret
+
+
 def handler(dicty):
+	print(f'before starting: {dicty}')
 	driver = loginSunshine()
+	metadata = create_ticket_metadata_dict(dicty)
 
 	contactDict = {}
 	for orderID in dicty:
@@ -261,15 +316,19 @@ def handler(dicty):
 	for workOrder in dicty:
 		for ticket in dicty[workOrder]:
 			getToSearch(driver)
-			html = searchTicket(ticket,driver)
+			html, exp_date, ticket_text = searchTicket(ticket,driver)
 			responseList = finalList(html)
+			print(f'before breaking: {dicty}')
 			for response in responseList:
 				dicty[workOrder][ticket].append(response)
+
+			metadata[workOrder][ticket]['expiration'] = exp_date
+			metadata[workOrder][ticket]['text'] = ticket_text
 
 			# saveContactHTML(driver)
 
 	driver.close()
-	return dicty
+	return dicty, metadata
 
 def getResponses(text):
 	responses = []
@@ -333,7 +392,6 @@ def finalList(text):
 	serviceArea = getServiceArea(text)
 	responses2 = getResponses2(text)
 	comments = getComments(text)
-
 	for x,elem in enumerate(responses):
 		row = []
 		row.append(responses[x])
@@ -341,10 +399,8 @@ def finalList(text):
 		row.append(responses2[x])
 		row.append(comments[x])
 		daList.append(row)
-
 	for elem in daList[1:-1]:
 		print(elem)
-
 	return daList[1:-1]
 
 def getWorkOrderTitles(workOrders):

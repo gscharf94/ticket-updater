@@ -4,7 +4,7 @@ import time
 
 append_to_file('Checking completion of previous script','CHK')
 
-with open('success','r') as f:
+with open('success','w+') as f:
     status = f.read()
 
 if status == "NO":
